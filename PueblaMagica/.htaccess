@@ -1,0 +1,24 @@
+# comando original recomendado en el manual
+# RewriteCond $1 !^(index\.php|images|robots\.txt)
+# se sumo el directorio common a la condicion 
+
+RewriteEngine on
+RewriteCond $1 !^(index\.php|common|images|robots\.txt|plantillas|Pahuatlan|imagenes)
+
+# la condicion arriba citada dice:
+# la variable $1 es lo que sigue despues del espacio
+# ! - negacion
+# ^ - al inicio
+# ( - abre el conjunto
+# index - el nombre del archivo
+# \. - escapa el punto para que pueda ser interpretado como tal
+# php - la extension 
+# | suma archivos
+
+#esta es una regla de redireccion interna
+#la composicion es RewriteRule [url_patron] [url_destino]
+
+RewriteRule ^(.*)$ /PueblaMagica/index.php/$1 [L]
+# ^ al inicio
+# (.*)
+# $ al final
