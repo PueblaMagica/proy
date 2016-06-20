@@ -36,7 +36,15 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 						<h1>Puebla Mágica</h1>
 						<nav>
 							<ul>
-								<li><a href="/PueblaMagica/Pahuatlan/Pahuatlan.html"><img src="<?= base_url()?>imagenes/Btn1.png" width="150%" ></a></li>
+								<li><a href="/PueblaMagica/Pahuatlan/Pahuatlan.html"><img src="<?= base_url()?>imagenes/Btn1.png" width="110%" ></a></li>
+								<li><a href="/PueblaMagica/Atlixco/Atlixco.html"><img src="<?= base_url()?>imagenes/Btn2.png" width="110%" ></a></li>
+								<li><a href="/PueblaMagica/Chignahuapan/Chignahuapan.html"><img src="<?= base_url()?>imagenes/Btn3.png" width="110%" ></a></li>
+								<li><a href="/PueblaMagica/Cholula/Cholula.html"><img src="<?= base_url()?>imagenes/Btn4.png" width="110%" ></a></li>
+								<li><a href="/PueblaMagica/Cuetzalan/Cuetzalan.html"><img src="<?= base_url()?>imagenes/Btn5.png" width="110%" ></a></li>
+								<li><a href="/PueblaMagica/Huauchinango/Huauchinango.html"><img src="<?= base_url()?>imagenes/Btn6.png" width="110%" ></a></li>
+								<li><a href="/PueblaMagica/Tlatlauquitepec/Tlatlauquitepec.html"><img src="<?= base_url()?>imagenes/Btn7.png" width="110%" ></a></li>
+								<li><a href="/PueblaMagica/Xicotepec/Xicotepec.html"><img src="<?= base_url()?>imagenes/Btn8.png" width="110%" ></a></li>
+								<li><a href="/PueblaMagica/Zacatlan/Zacatlan.html"><img src="<?= base_url()?>imagenes/Btn9.png" width="110%" ></a></li>
 								
 							</ul>
 						</nav>
